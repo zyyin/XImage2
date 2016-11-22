@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yin/XImage2/app/linux/sample1
+CMAKE_SOURCE_DIR = /home/yin/XImage2/app/linux/cross_shader
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yin/XImage2/app/linux/sample1
+CMAKE_BINARY_DIR = /home/yin/XImage2/app/linux/cross_shader
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin/XImage2/app/linux/sample1/CMakeFiles /home/yin/XImage2/app/linux/sample1/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin/XImage2/app/linux/cross_shader/CMakeFiles /home/yin/XImage2/app/linux/cross_shader/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin/XImage2/app/linux/sample1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yin/XImage2/app/linux/cross_shader/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+IAlgorithmStratety.o: IAlgorithmStratety.cpp.o
+
+.PHONY : IAlgorithmStratety.o
+
+# target to build an object file
+IAlgorithmStratety.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/IAlgorithmStratety.cpp.o
+.PHONY : IAlgorithmStratety.cpp.o
+
+IAlgorithmStratety.i: IAlgorithmStratety.cpp.i
+
+.PHONY : IAlgorithmStratety.i
+
+# target to preprocess a source file
+IAlgorithmStratety.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/IAlgorithmStratety.cpp.i
+.PHONY : IAlgorithmStratety.cpp.i
+
+IAlgorithmStratety.s: IAlgorithmStratety.cpp.s
+
+.PHONY : IAlgorithmStratety.s
+
+# target to generate assembly for a file
+IAlgorithmStratety.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/IAlgorithmStratety.cpp.s
+.PHONY : IAlgorithmStratety.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... IAlgorithmStratety.o"
+	@echo "... IAlgorithmStratety.i"
+	@echo "... IAlgorithmStratety.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
