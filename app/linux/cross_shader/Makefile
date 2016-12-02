@@ -123,6 +123,60 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+ContrastEnhance.o: ContrastEnhance.cpp.o
+
+.PHONY : ContrastEnhance.o
+
+# target to build an object file
+ContrastEnhance.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ContrastEnhance.cpp.o
+.PHONY : ContrastEnhance.cpp.o
+
+ContrastEnhance.i: ContrastEnhance.cpp.i
+
+.PHONY : ContrastEnhance.i
+
+# target to preprocess a source file
+ContrastEnhance.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ContrastEnhance.cpp.i
+.PHONY : ContrastEnhance.cpp.i
+
+ContrastEnhance.s: ContrastEnhance.cpp.s
+
+.PHONY : ContrastEnhance.s
+
+# target to generate assembly for a file
+ContrastEnhance.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ContrastEnhance.cpp.s
+.PHONY : ContrastEnhance.cpp.s
+
+HSVDistance.o: HSVDistance.cpp.o
+
+.PHONY : HSVDistance.o
+
+# target to build an object file
+HSVDistance.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HSVDistance.cpp.o
+.PHONY : HSVDistance.cpp.o
+
+HSVDistance.i: HSVDistance.cpp.i
+
+.PHONY : HSVDistance.i
+
+# target to preprocess a source file
+HSVDistance.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HSVDistance.cpp.i
+.PHONY : HSVDistance.cpp.i
+
+HSVDistance.s: HSVDistance.cpp.s
+
+.PHONY : HSVDistance.s
+
+# target to generate assembly for a file
+HSVDistance.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/HSVDistance.cpp.s
+.PHONY : HSVDistance.cpp.s
+
 IAlgorithmStratety.o: IAlgorithmStratety.cpp.o
 
 .PHONY : IAlgorithmStratety.o
@@ -149,6 +203,222 @@ IAlgorithmStratety.s: IAlgorithmStratety.cpp.s
 IAlgorithmStratety.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/IAlgorithmStratety.cpp.s
 .PHONY : IAlgorithmStratety.cpp.s
+
+ImageDilated.o: ImageDilated.cpp.o
+
+.PHONY : ImageDilated.o
+
+# target to build an object file
+ImageDilated.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageDilated.cpp.o
+.PHONY : ImageDilated.cpp.o
+
+ImageDilated.i: ImageDilated.cpp.i
+
+.PHONY : ImageDilated.i
+
+# target to preprocess a source file
+ImageDilated.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageDilated.cpp.i
+.PHONY : ImageDilated.cpp.i
+
+ImageDilated.s: ImageDilated.cpp.s
+
+.PHONY : ImageDilated.s
+
+# target to generate assembly for a file
+ImageDilated.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageDilated.cpp.s
+.PHONY : ImageDilated.cpp.s
+
+ImageErode.o: ImageErode.cpp.o
+
+.PHONY : ImageErode.o
+
+# target to build an object file
+ImageErode.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageErode.cpp.o
+.PHONY : ImageErode.cpp.o
+
+ImageErode.i: ImageErode.cpp.i
+
+.PHONY : ImageErode.i
+
+# target to preprocess a source file
+ImageErode.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageErode.cpp.i
+.PHONY : ImageErode.cpp.i
+
+ImageErode.s: ImageErode.cpp.s
+
+.PHONY : ImageErode.s
+
+# target to generate assembly for a file
+ImageErode.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageErode.cpp.s
+.PHONY : ImageErode.cpp.s
+
+ImageProbe.o: ImageProbe.cpp.o
+
+.PHONY : ImageProbe.o
+
+# target to build an object file
+ImageProbe.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageProbe.cpp.o
+.PHONY : ImageProbe.cpp.o
+
+ImageProbe.i: ImageProbe.cpp.i
+
+.PHONY : ImageProbe.i
+
+# target to preprocess a source file
+ImageProbe.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageProbe.cpp.i
+.PHONY : ImageProbe.cpp.i
+
+ImageProbe.s: ImageProbe.cpp.s
+
+.PHONY : ImageProbe.s
+
+# target to generate assembly for a file
+ImageProbe.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ImageProbe.cpp.s
+.PHONY : ImageProbe.cpp.s
+
+MeanBlurX.o: MeanBlurX.cpp.o
+
+.PHONY : MeanBlurX.o
+
+# target to build an object file
+MeanBlurX.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MeanBlurX.cpp.o
+.PHONY : MeanBlurX.cpp.o
+
+MeanBlurX.i: MeanBlurX.cpp.i
+
+.PHONY : MeanBlurX.i
+
+# target to preprocess a source file
+MeanBlurX.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MeanBlurX.cpp.i
+.PHONY : MeanBlurX.cpp.i
+
+MeanBlurX.s: MeanBlurX.cpp.s
+
+.PHONY : MeanBlurX.s
+
+# target to generate assembly for a file
+MeanBlurX.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/MeanBlurX.cpp.s
+.PHONY : MeanBlurX.cpp.s
+
+ResampleDown.o: ResampleDown.cpp.o
+
+.PHONY : ResampleDown.o
+
+# target to build an object file
+ResampleDown.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ResampleDown.cpp.o
+.PHONY : ResampleDown.cpp.o
+
+ResampleDown.i: ResampleDown.cpp.i
+
+.PHONY : ResampleDown.i
+
+# target to preprocess a source file
+ResampleDown.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ResampleDown.cpp.i
+.PHONY : ResampleDown.cpp.i
+
+ResampleDown.s: ResampleDown.cpp.s
+
+.PHONY : ResampleDown.s
+
+# target to generate assembly for a file
+ResampleDown.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ResampleDown.cpp.s
+.PHONY : ResampleDown.cpp.s
+
+ResampleUp.o: ResampleUp.cpp.o
+
+.PHONY : ResampleUp.o
+
+# target to build an object file
+ResampleUp.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ResampleUp.cpp.o
+.PHONY : ResampleUp.cpp.o
+
+ResampleUp.i: ResampleUp.cpp.i
+
+.PHONY : ResampleUp.i
+
+# target to preprocess a source file
+ResampleUp.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ResampleUp.cpp.i
+.PHONY : ResampleUp.cpp.i
+
+ResampleUp.s: ResampleUp.cpp.s
+
+.PHONY : ResampleUp.s
+
+# target to generate assembly for a file
+ResampleUp.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ResampleUp.cpp.s
+.PHONY : ResampleUp.cpp.s
+
+Sharpen.o: Sharpen.cpp.o
+
+.PHONY : Sharpen.o
+
+# target to build an object file
+Sharpen.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Sharpen.cpp.o
+.PHONY : Sharpen.cpp.o
+
+Sharpen.i: Sharpen.cpp.i
+
+.PHONY : Sharpen.i
+
+# target to preprocess a source file
+Sharpen.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Sharpen.cpp.i
+.PHONY : Sharpen.cpp.i
+
+Sharpen.s: Sharpen.cpp.s
+
+.PHONY : Sharpen.s
+
+# target to generate assembly for a file
+Sharpen.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Sharpen.cpp.s
+.PHONY : Sharpen.cpp.s
+
+WarmColor.o: WarmColor.cpp.o
+
+.PHONY : WarmColor.o
+
+# target to build an object file
+WarmColor.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/WarmColor.cpp.o
+.PHONY : WarmColor.cpp.o
+
+WarmColor.i: WarmColor.cpp.i
+
+.PHONY : WarmColor.i
+
+# target to preprocess a source file
+WarmColor.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/WarmColor.cpp.i
+.PHONY : WarmColor.cpp.i
+
+WarmColor.s: WarmColor.cpp.s
+
+.PHONY : WarmColor.s
+
+# target to generate assembly for a file
+WarmColor.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/WarmColor.cpp.s
+.PHONY : WarmColor.cpp.s
 
 main.o: main.cpp.o
 
@@ -186,9 +456,39 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... ContrastEnhance.o"
+	@echo "... ContrastEnhance.i"
+	@echo "... ContrastEnhance.s"
+	@echo "... HSVDistance.o"
+	@echo "... HSVDistance.i"
+	@echo "... HSVDistance.s"
 	@echo "... IAlgorithmStratety.o"
 	@echo "... IAlgorithmStratety.i"
 	@echo "... IAlgorithmStratety.s"
+	@echo "... ImageDilated.o"
+	@echo "... ImageDilated.i"
+	@echo "... ImageDilated.s"
+	@echo "... ImageErode.o"
+	@echo "... ImageErode.i"
+	@echo "... ImageErode.s"
+	@echo "... ImageProbe.o"
+	@echo "... ImageProbe.i"
+	@echo "... ImageProbe.s"
+	@echo "... MeanBlurX.o"
+	@echo "... MeanBlurX.i"
+	@echo "... MeanBlurX.s"
+	@echo "... ResampleDown.o"
+	@echo "... ResampleDown.i"
+	@echo "... ResampleDown.s"
+	@echo "... ResampleUp.o"
+	@echo "... ResampleUp.i"
+	@echo "... ResampleUp.s"
+	@echo "... Sharpen.o"
+	@echo "... Sharpen.i"
+	@echo "... Sharpen.s"
+	@echo "... WarmColor.o"
+	@echo "... WarmColor.i"
+	@echo "... WarmColor.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
